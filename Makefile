@@ -14,4 +14,4 @@ all:
 
 install:
 	install -D userxinitrc ${PREFIX}/bin/userxinitrc
-	install -D xinitrc.desktop ${XSESSION}
+	install -D -m 664 xinitrc.desktop ${XSESSION}
