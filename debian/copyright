@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: userxinitrc
+Upstream-Contact: Chua Hou <human+github@chuahou.dev>
+Source: https://github.com/chuahou/userxinitrc
+
+Files: *
+Copyright: 2020 Chua Hou
+License: MIT
