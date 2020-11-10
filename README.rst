@@ -1,6 +1,6 @@
-############
-userxsession
-############
+###########
+userxinitrc
+###########
 
 Custom script and .desktop file to allow direct running from a normal DM
 (e.g. GDM) of the traditional .xinitrc file.
