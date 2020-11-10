@@ -13,5 +13,9 @@ all:
 	@echo "Set XSESSION to change /usr/share/xsessions destination"
 
 install:
-	install -D userxinitrc ${PREFIX}/bin/userxinitrc
-	install -D -m 664 xinitrc.desktop ${XSESSION}
+	install -D userxinitrc $(DESTDIR)$(PREFIX)/bin/userxinitrc
+	install -D -m 664 xinitrc.desktop $(DESTDIR)$(XSESSION)/xinitrc.desktop
+
+uninstall:
+	rm $(DESTDIR)$(PREFIX)/bin/userxinitrc
+	rm $(DESTDIR)$(XSESSION)/xinitrc.desktop
